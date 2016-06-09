@@ -308,12 +308,12 @@ body {
 }
 .main .container .short-item {
   display: inline-block;
-  width: 23%;
-  margin: 10px 1%;
+  margin: 10px 1% 15px 1%;
+  font-family: "Open Sans", sans-serif;
 }
 .main .container .short-item img {
-  min-width: 100%;
-  max-width: 100%;
+  width: calc(100% - 2px);
+  height: auto;
 }
 .main .container .short-item .short-title {
   display: block;
