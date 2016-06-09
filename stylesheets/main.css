@@ -302,14 +302,20 @@ body {
 }
 .main .container .short-news {
   width: 100%;
-  text-align: center;
   font-size: 0;
   line-height: 0;
+  padding-left: 2.5641%;
 }
 .main .container .short-item {
+  text-align: center;
   display: inline-block;
   margin: 10px 1% 15px 1%;
   font-family: "Open Sans", sans-serif;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .main .container .short-item {
+    width: 95%;
+  }
 }
 .main .container .short-item img {
   width: calc(100% - 2px);
